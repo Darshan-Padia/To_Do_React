@@ -1,0 +1,89 @@
+body{
+    font-family:  sans-serif;
+}
+
+.header{
+    font-size: xxx-large;
+    background-color: royalblue;
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    
+
+}
+.chkbox_and_task{
+    display : flex;
+    gap: 10px;
+    align-items: center;
+}
+.chkbox{
+    height: 20px;
+    width: 20px;
+}
+.todoform{
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.todoinput{
+    width: auto !important;
+    width: 90% !important;
+    border: none;
+    border-bottom: 2px solid whitesmoke;
+    font-size: 1.5em;
+    text-align: center;
+    height: 50px;
+    outline: 1px solid royalblue;
+    border-radius: 10px;
+
+}
+.todobutton{
+    width: 90%;
+    border : none;
+    height: 50px;
+    background-color: tomato;
+    font-size: 1.2em;
+    color: white;
+    font-weight: bold;
+    margin-top : 20px;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.todoitem{
+    /* max-width: 500px; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+   
+}
+.todoname{
+    margin: 0;
+}
+.dltbtn{
+    padding: 8px 16px;
+    border: none;
+    /* height: 20px; */
+    border-radius: 5px;
+    background-color: tomato;
+    /* width: 100px; */
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+.strikethrough{
+    text-decoration: line-through;
+    /* color: grey; */
+}
